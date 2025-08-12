@@ -1,60 +1,33 @@
 # Raspberry Pi 4 Homelab — 30‑Day Plan & Copy‑Paste Commands
 
-# Raspberry Pi 4 Homelab
+##  Project Overview
 
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4B-red?logo=raspberrypi&logoColor=white)
-![ARM64](https://img.shields.io/badge/Architecture-ARM64-blue?logo=linux&logoColor=white)
-![OS](https://img.shields.io/badge/OS-Raspberry%20Pi%20OS%20Lite-lightgrey?logo=debian&logoColor=white)
-![Ubuntu Server](https://img.shields.io/badge/Compatible-Ubuntu%20Server%2022.04-blue?logo=ubuntu&logoColor=white)
-![Static IP](https://img.shields.io/badge/Network-Static%20IP-green)
+<!-- Static status badges with icons -->
+![Homelab Ready](https://img.shields.io/badge/Homelab-Ready-brightgreen?style=for-the-badge&logo=homeassistant&logoColor=white)
+![Dockerized](https://img.shields.io/badge/Dockerized-Yes-blue?style=for-the-badge&logo=docker&logoColor=white)
 
----
+##  Components
 
-## 🛠 Tools & Languages
-![Linux](https://img.shields.io/badge/Linux-Bash-lightgrey?logo=linux&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Engine-blue?logo=docker&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Version%20Control-orange?logo=git&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-Automation-red?logo=ansible&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-Tunnel-F38020?logo=cloudflare&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-E6522C?logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-Dashboards-F46800?logo=grafana&logoColor=white)
-![Loki](https://img.shields.io/badge/Loki-Logs-00BFFF?logo=grafana&logoColor=white)
+![Pi-hole](https://img.shields.io/badge/Pi--hole-Blocking_Bads-red?style=for-the-badge&logo=pihole&logoColor=white)
+![Nextcloud](https://img.shields.io/badge/Nextcloud-Cloud_Ready-orange?style=for-the-badge&logo=nextcloud&logoColor=white)
+![Uptime Kuma](https://img.shields.io/badge/Uptime_Kuma-Monitored-blue?style=for-the-badge&logo=uptimekuma&logoColor=white)
 
----
+##  Monitoring Stack
 
-## 📦 Containers in this Project
-![Portainer](https://img.shields.io/badge/Portainer-Management-blue?logo=portainer&logoColor=white)
-![Pi-hole](https://img.shields.io/badge/Pi--hole-Ads%20Blocker-96060C?logo=pihole&logoColor=white)
-![Nginx Proxy Manager](https://img.shields.io/badge/Nginx%20Proxy%20Manager-Reverse%20Proxy-009639?logo=nginx&logoColor=white)
-![Nextcloud](https://img.shields.io/badge/Nextcloud-Cloud%20Storage-0082C9?logo=nextcloud&logoColor=white)
-![Jellyfin](https://img.shields.io/badge/Jellyfin-Media%20Server-00A4DC?logo=jellyfin&logoColor=white)
-![Uptime Kuma](https://img.shields.io/badge/Uptime%20Kuma-Monitoring-4682B4?logo=uptimekuma&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-Metrics-orange?logo=prometheus&logoColor=white)
-![Node Exporter](https://img.shields.io/badge/Node%20Exporter-System%20Metrics-lightgrey)
-![cAdvisor](https://img.shields.io/badge/cAdvisor-Container%20Metrics-blue)
-![Loki](https://img.shields.io/badge/Loki-Logs-green)
+![Prometheus](https://img.shields.io/badge/Prometheus-Metrics-yellow?style=flat-square&logo=prometheus&logoColor=black)
+![Grafana](https://img.shields.io/badge/Grafana-Dashboards-orange?style=flat-square&logo=grafana&logoColor=black)
+![Loki](https://img.shields.io/badge/Loki-Logs-lightgrey?style=flat-square&logo=loki&logoColor=blue)
 
----
+##  Access & Security
 
-## 🔧 Networking & Security
-![Cloudflare Tunnel](https://img.shields.io/badge/Cloudflare%20Tunnel-Secure%20Access-F38020?logo=cloudflare&logoColor=white)
-![HTTPS](https://img.shields.io/badge/HTTPS-LetsEncrypt-003A70?logo=letsencrypt&logoColor=white)
-![Firewall](https://img.shields.io/badge/Firewall-UFW-green)
-![SSH](https://img.shields.io/badge/SSH-Key%20Auth-2E2E2E?logo=openssh&logoColor=white)
+![Cloudflare Tunnel](https://img.shields.io/badge/Cloudflare-Tunnel-FF7300?style=plastic&logo=cloudflare&logoColor=white)
+![SSH Keys](https://img.shields.io/badge/SSH-Keys_enabled-green?style=plastic&logo=ssh&logoColor=white)
 
----
+##  Live Metrics (Dynamic)
 
-## 📊 Project Info
-![Status](https://img.shields.io/badge/Status-Active-success)
-![License](https://img.shields.io/badge/License-MIT-blue)
-![Version](https://img.shields.io/badge/Version-1.0.0-blue)
-![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-ff69b4)
-![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO)
-![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO)
-![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=social)
-![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO?style=social)
+![CPU Load](https://img.shields.io/badge/dynamic/json?url=https://example.com/api/metrics&query=$.cpu_load&label=CPU%20Load&color=informational)
+![Docker Count](https://img.shields.io/badge/dynamic/json?url=https://example.com/api/metrics&query=$.docker_containers&label=Docker%20Containers&color=success)
+
 
 
 **Hardware**: Raspberry Pi 4 (4–8 GB RAM recommended), microSD (32 GB+ or SSD), Ethernet.
